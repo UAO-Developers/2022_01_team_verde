@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/report.css">
+    <title>Report</title>
+</head>
+<body class="fondo">
+    <section class="reporte">
+        <div class="container-fluid mt-2 mb-2 contenedor_Saludo">
+            <div class="row d-flex align-items-center saludo">
+                <div class="col-11">
+                    <h1 class="text-center align-items-center" id="nombre_Usuario">
+                        Hello, Username!
+                    </h1>
+                </div>
+                <div class="flex-column col-1">
+                    <img src="./img/perfilDef.png" alt="perfilFoto" id="foto_Perfil">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light navegacion_Barra">
+                <div class="container-fluid">
+                    <a class="navbar-brand" id="marca" href="#">ConnectNPlay  </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="perfil_Configuracion" aria-current="page" href="#">Profile Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="siguiendo" href="#">Following</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="seguridad" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Security and Privacy
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Password Settings</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Devices</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Access Settings</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Verification</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search Profile" aria-label="Search">
+                            <button class="btn btn-secondary" id="boton_Busqueda" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+            
+
+    </section>
+
+</body>
+
+</html>
