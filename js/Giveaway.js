@@ -5,7 +5,7 @@ function cargar() {
         success: function( data, textStatus, jQxhr ){
             let html = "";
             let i=1;
-            data.products.forEach(element => {
+            data.sorteos.forEach(element => {
                 console.log(element);
                 
                 html += `
