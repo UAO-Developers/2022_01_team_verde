@@ -28,5 +28,10 @@ router.get('/sorteo/:id', cSort.show)
 router.put('/sorteo/:id', cSort.update)
 router.delete('/sorteo/:id', cSort.deleted)
 
-
+//Torneoo
+router.get('/torneo/', cSort.listall);
+router.post('/torneo/', cSort.create)
+router.get('/torneo/:id', cSort.show)
+router.put('/torneo/:id', cSort.update)
+router.delete('/torneo/:id', cSort.deleted)
 module.exports = router;
